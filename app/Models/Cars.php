@@ -11,7 +11,4 @@ class Cars extends Model
     use HasFactory;
     protected $table = 'cars';
 
-    public function characters(){
-        return $this->belongsTo(Characters::class);
-    }
 }
